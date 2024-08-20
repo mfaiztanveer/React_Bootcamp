@@ -1,0 +1,13 @@
+.select-box {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+    background-color:#f09f61;
+}
+
+.select-box:hover {
+    border-color: #aaa;
+    background-color: #ff7e5f;
+}
