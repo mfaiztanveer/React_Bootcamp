@@ -1,122 +1,169 @@
+:root {
+  --Dgreen: #0F2928;
+  --light-green: #4DAD49;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
 .ft-main {
-    width: 100%;
-    height: 371px;
-    top: 297.87px;
-    background-color: var(--Dgreen);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0px;
-    opacity: 0px;
-    padding: 0%;
-
+  background-color: var(--Dgreen);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 110px;
 }
 
-.ft-div {
-
-    background-color: var(--Dgreen);
-    width: 100%;
-    height: 371px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 5%;
-    margin-bottom: 13px;
-
-
+.ft-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
 }
 
-.Logo {
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--Dgreen);
-    margin-top: 90px;
-
+.logo-section {
+  text-align: center;
 }
 
-
-.ft-socials {
-
-    background-color: var(--Dgreen);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 30px;
-    padding-right: 80px;
-
+.footer-logo {
+  max-width: 220px;
+  height: auto;
 }
 
-.ft-socials img {
+.logo-text {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 700;
+}
 
-    background-color: var(--Dgreen);
-    color: white;
-    width: 40px;
-    height: auto;
+.logo-text span {
+  color: var(--light-green);
+}
+
+.logo-section h3 {
+  color: var(--white);
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.list-and-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icon img {
+  width: 40px;
+  height: auto;
+}
+
+.nav-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+
+.nav-list li {
+  color: var(--white);
+  font-size: 16px;
+}
+
+.nav-list a {
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: var(--light-green);
+}
+
+.rights {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .rights p {
-    background-color: var(--Dgreen);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 30px;
+  margin: 10px 0;
 }
 
 hr {
-    width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid var(--light-gray);
 }
 
-a {
-    background-color: var(--Dgreen);
+@media (min-width: 800px) {
+  .ft-content {
+    flex-direction: row;
+  }
+
+  .list-and-socials {
+    width: auto;
+  }
+
+  .nav-list {
+    align-items: flex-end;
+  }
+
+  .social-icons {
+    align-items: flex-end;
+  }
+  
 }
 
-.Logo img {
-    width: 220px;
-    height: auto;
-    padding-top: 20px;
-
-    background-color: var(--Dgreen);
-}
-
-.Logo h3 {
-    background-color: var(--Dgreen);
-    color: white;
-}
-
-
-.nb-list li {
-
-    background-color: var(--Dgreen);
-    color: white;
-}
-
-.nb-list ul {
-
-    background-color: var(--Dgreen);
-    display: flex;
+@media (max-width: 750px) {
+  .ft-content {
+    flex-direction: column;
     align-items: center;
-    text-decoration: none;
-    list-style-type: none;
-    width: Fixed (1, 440px)px;
-    height: Hug (115.75px)px;
-    padding: 30px 80px 30px 80px;
-    gap:20px;
+    text-align: center;
+  }
+
+  .list-and-socials {
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav-list {
+    order: 1; 
+  }
+
+  .social-icons {
+    order: 2;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .nav-list ul {
+    flex-direction: column;
+  }
+
+  .nav-list li {
+    font-size: 14px;
+  }
 }
-
-.logo-text{
-
-        color: white;
-        font-size: 24px;
-        font-weight: 700;
-        text-align: left;
-
-
-}
-
- .logo-text span {
-    color: #4DAD49;
- }
-
-

@@ -255,7 +255,7 @@ export default function OffMarket() {
                 <section className="padding">
                 <Grid container spacing={3}>
                 {sortedAndPagedItems().map((item, index) => (
-                        <Grid  xs={12} sm={6} md={4} lg={4} key={index}>
+                        <Grid  xs={12} sm={6} md={4} lg={4} key={index} className="properties-grid">
                             <Card
                                 image={item.image}
                                 status={item.status}
