@@ -4,6 +4,7 @@ import building from '../../assets/imgs/building.png'
 import { Grid } from '@mui/material'
 import Btn from '../btn/Btn'
 import InputField from '../InputField/InputField'
+import LowerFooter from './LowerFooter.jsx'
 
 export default function Footer() {
     let [userObj, setUserObj] = useState({});
@@ -73,6 +74,7 @@ export default function Footer() {
                 </Grid>
             </div>
             <div className="footer-lower">
+            <LowerFooter/>
             </div>
         </div>
     )

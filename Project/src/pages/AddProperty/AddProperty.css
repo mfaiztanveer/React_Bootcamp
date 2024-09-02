@@ -1,0 +1,184 @@
+.add-property {
+    text-align: center;
+}
+
+.add-property-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100%;
+}
+
+.subheading {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0 10px;
+}
+
+ .property-type-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.property-type-button {
+    background-color: #f5f5f5;
+    color: white;
+    border-color: black; 
+    border-radius: 40px;
+    
+}
+ .property-type-button.MuiButton-contained {
+    color: white; 
+    border-radius: 40px;
+    
+}
+
+
+
+ .property-type-button.MuiButton-outlined {
+    border-color:  black; 
+    color: black; 
+    border-radius: 40px;
+    
+}
+.property-type-button:hover {
+    background-color: #EFF0F2;
+    color: white;
+    
+}
+
+.property-type-button.MuiButton-outlined:hover {
+    border-color: #4DAD49; 
+    color: #333; 
+    
+}
+ .input-field{
+    background-color: #EFF0F2;
+    border-radius: 40px;
+    
+}
+
+
+
+.MuiTextField-root .MuiOutlinedInput-root {
+    border-radius: 40px !important;
+    
+}
+
+.MuiSelect-root {
+    border-radius: 40px !important;
+    
+   
+}
+
+
+ .MuiOutlinedInput-root {
+    border-radius: 40px !important;
+    background-color: #EFF0F2;
+    
+}
+
+
+.MuiSelect-select {
+    border-radius: 40px !important;
+}
+
+
+
+ .radio-group {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+ .icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFF0F2;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding: 10px; 
+    text-align: center; 
+    margin-bottom: 10px;
+    color:dimgray;
+}
+
+ .icon {
+    font-size: 2rem;
+    color:dimgray;
+    margin-bottom: 5px; 
+}
+
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #EFF0F2;
+    margin: 20px 0;
+    
+}
+
+
+.submit-button {
+    margin-top: 30px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+}
+.add-property .h-sec1 {
+   
+    background-color: #0F2928;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10% 18%;
+}
+
+
+ .h-sec1-mainHeading {
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+ .h-sec1-text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    padding: 0px 15%;
+}
+
+ .h-sec1-mainHeading span {
+    color: #4DAD49;
+}
+
+

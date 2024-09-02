@@ -1,0 +1,32 @@
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+ 
+  .card2-img img {
+    width: 300px; 
+    height: 300px;
+  }
+  
+
+  .card2-content {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .card2-content .type {
+    font-weight: 500;
+    font-size: 22px;
+    padding: 10px 0;
+  }
+
+.card2-content .details{
+font-size: 15px;
+font-weight: 500;
+  }

@@ -35,3 +35,26 @@
     display: flex;
     gap: 20px;
 }
+
+.main-heading1{
+    font-size: 45px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    padding-top: 130px;
+}
+
+.main-heading1 span{
+    color: #4DAD49;
+}
+
+.main-heading2{
+    font-size: 45px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.main-heading2 span{
+    color: #4DAD49;
+}

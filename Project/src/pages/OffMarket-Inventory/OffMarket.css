@@ -1,0 +1,133 @@
+
+.h-sec1 {
+    background-color: #0F2928;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10% 18%;
+}
+
+.h-sec1-mainHeading {
+    font-size: 70px;
+    text-align: center;
+}
+
+.h-sec1-mainHeading span {
+    color: #4DAD49;
+}
+
+.h-sec1-text {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 22px;
+    padding: 0px 15%;
+}
+
+
+.main-heading1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-heading1 span {
+    color: #4DAD49;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    color: #4DAD49;
+}
+
+.pagination .active {
+    background-color: #4DAD49;
+    color: white;
+}
+
+.filters-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.custom-input-label {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+ 
+}
+.custom-form-control {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.filter-icon {
+    margin-right: 3px;
+    height: 15px;
+    width: auto;  
+    
+}
+
+
+.filters-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.properties-sort-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.properties-count {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.sort-by {
+    width: 200px;
+}
+
+
+
+
+.custom-select {
+    background-color: transparent;
+    color: #000;
+}
+
+
+.custom-input-label {
+    color: #000; 
+    padding: 5px;
+}
+
+
+.custom-select:hover {
+    border-color: #4DAD49; 
+    color: green !important;
+}
+
+
+.custom-select:focus {
+    border-color: #4DAD49; 
+    box-shadow: 0 0 0 3px rgba(77, 173, 73, 0.3) !important;
+}
+
+
+
+
+
