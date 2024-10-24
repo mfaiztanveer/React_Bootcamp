@@ -16,11 +16,10 @@
     color: #4DAD49;
 }
 
-
-
 .nb-links {
     display: flex;
     gap: 20px;
+    cursor: pointer; 
 }
 
 #nb-mobile-btn {

@@ -4,13 +4,15 @@ import Navbar from '../../components/navbar/Navbar'
 import Btn from '../../components/btn/Btn'
 import Footer from '../../components/footer/Footer'
 import { Grid } from '@mui/material'
-import Card from '../../components/card/Card'
-import Image1 from '../../assets/imgs/img3.png'
-import Image2 from '../../assets/imgs/img4.png'
-import Image3 from '../../assets/imgs/img5.png'
+// import Card from '../../components/card/Card'
+// import Image1 from '../../assets/imgs/img3.png'
+// import Image2 from '../../assets/imgs/img4.png'
+// import Image3 from '../../assets/imgs/img5.png'
 import image4 from '../../assets/imgs/img1.png'
 import image5 from '../../assets/imgs/img2.png'
 import Card2 from '../../components/card2/card2'
+import CustomSlider from '../../components/customSlider/CustomSlider'
+import Testimonial from '../../components/testimonial/Testimonial'
 
 
 export default function Home() {
@@ -43,46 +45,8 @@ export default function Home() {
 
             <div className="padding main-heading1">Off-Market <span>Properties</span></div>
             <section className="padding">
-                <Grid container spacing={3}>
-                    <Grid item sm={4} xs={12}>
-                        <Card
-                            image={Image1}
-                            status="Vacant"
-                            investment="$45,000"
-                            roi="37%"
-                            text1="Luxury Apartments"
-                            text2="$450,000"
-                            text3="3 Bedroom | 1 Bathroom | 971 sq.ft"
-                            location="Australia"
-                        />
-                    </Grid>
-                    <Grid item sm={4} xs={12}>
-                        <Card
-                            image={Image2}
-                            status="Owner Occupied"
-                            investment="$45,000"
-                            roi="37%"
-                            text1="Luxury Apartments"
-                            text2="$450,000"
-                            text3="3 Bedroom | 1 Bathroom | 971 sq.ft"
-                            location="Australia"
-
-                        />
-                    </Grid>
-                    <Grid item sm={4} xs={12}>
-                        <Card
-                            image={Image3}
-                            status="Tenant Ocuupied"
-                            investment="$45,000"
-                            roi="37%"
-                            text1="Luxury Apartments"
-                            text2="$450,000"
-                            text3="3 Bedroom | 1 Bathroom | 971 sq.ft"
-                            location="Australia"
-
-                        />
-                    </Grid>
-                </Grid>
+                
+               <CustomSlider />
 
             </section>
 
@@ -91,6 +55,7 @@ export default function Home() {
             <div className="padding main-heading2">Off-Market <span>Property Types</span></div>
 
             <section className="padding">
+
                 <Grid container spacing={3}>
                     <Grid item sm={4} xs={12}>
 
@@ -122,8 +87,7 @@ export default function Home() {
                 </Grid>
             </section>
 
-
-
+            <Testimonial />
 
             <div className="h-sec2 padding"></div>
             {/* footer  */}
